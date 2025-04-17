@@ -113,9 +113,9 @@ SELECT COUNT(*) FROM littlelemondb.orderdeliverystatus;
 -- Create Orders table
 INSERT INTO littlelemondb.orders (OrderID, OrderDate, Quantity, TotalCost, MenuID, CustomerID, StatusID)
 VALUES
-(1, '2021-11-17', 2, 80, 3, 4, 1),
-(2, '2021-11-20', 1, 37, 2, 1, 2),
-(3, '2021-11-22', 1, 37, 2, 2, 3),
+(1, '2021-11-17', 4, 160, 3, 4, 1),
+(2, '2021-11-20', 2, 74, 2, 1, 2),
+(3, '2021-11-22', 3, 111, 2, 2, 3),
 (4, '2021-11-25', 1, 40, 3, 3, 4),
 (5, '2021-11-27', 1, 52, 1, 5, 5);
 
